@@ -12,10 +12,11 @@ public class Tabuleiro {
 	
 	public Tabuleiro(int linhas, int colunas) {
 		this.linhas=linhas;
-		this.colunas=colunas;	
+		this.colunas=colunas;
+		private int[][] tabuleiro = new int[linhas][colunas];
 	}
 	
-	private int[][] tabuleiro = new int[9][9]; // duvida ao professor, como deixar esse tabuleiro com a linha e coluna desejada
+	 
 	
 	public int[][] getTabuleiro() {
 		return tabuleiro;
